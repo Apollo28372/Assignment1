@@ -8,17 +8,18 @@
 
       
 
----------------------------------------------------------------------------------Limitations------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------Limitations------------------------------------------------------------------------------------------------------------
       
-      
-      The followimg program doesn't handle errors 
+      The following program handles errors to only some extent
+      The followimg program doesn't handle all errors 
       The Integer limit is Signed 4 bytes. That May depend on the system too.
       The program may or may not  give error or may give unexpected values  in case of :
               1. if the Sum of the elements of the Array is greater than the range of signed integer type. Overflow may occur 
-              2. If a character/string is passed as a choice . The program will run indefinitely without taking input from the user. Following the same loop again and again.
+              2. If a string containing a character, starting with a number is passed . It may lead to unexpected results
               3. if the reverse of the passed number is greater than the range of the signed integer type in c for checking prime palindrome.
               4. If the square of the number or the square of the reverse of the number or its reverse exceeds the range of signed integer data type.
               5. If a character/string is passed as a number or as an element of an Array . Unexpected results may appear.
+              
 
 
 
